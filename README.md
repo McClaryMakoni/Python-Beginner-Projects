@@ -5,3 +5,4 @@ Repository Structure
 The repository is organized into folders, with each folder representing a standalone project.
 
 This repository is primarily for my personal learning, but if you'd like to contribute, feel free to open a pull request or submit an issue.
+If you have any questions or suggestions, feel free to reach out to me via GitHub
