@@ -13,11 +13,21 @@ def get_key_by_value(dictionary: dict, the_value: str):
     for key, value in dictionary.items():
         if value == the_value:
             return key
-    return None
 
 game_is_on: bool = True
 
 while game_is_on:
+    print("""
+     ____            _      ____                       
+|  _ \ ___   ___| | __ |  _ \ __ _ _ __   ___ _ __ 
+| |_) / _ \ / __| |/ / | |_) / _` | '_ \ / _ \ '__|
+|  _ < (_) | (__|   <  |  __/ (_| | |_) |  __/ |   
+|_|_\_\___/ \___|_|\_\ |_|   \__,_| .__/ \___|_|   
+/ ___|  ___(_)___ ___  ___  _ __ _|_|              
+\___ \ / __| / __/ __|/ _ \| '__/ __|              
+ ___) | (__| \__ \__ \ (_) | |  \__ \              
+|____/ \___|_|___/___/\___/|_|  |___/              
+    """)
     computer_choice: str = random.choice(list(trials.values()))
     user_choice: str = input('Rock,Paper, Scissors? ').lower()
 
