@@ -19,3 +19,6 @@ Features
 Emoji Display: The game uses emojis to represent Rock, Paper, and Scissors, making it visually engaging.
 Input Validation: The game only accepts valid inputs and prompts the user to try again if the input is incorrect.
 Replayability: Players can choose to play multiple rounds in a single session.
+
+Contributing
+Contributions are welcome! If you'd like to improve the game, add new features, or fix bugs, feel free to submit a pull request. Here's how you can get started:
